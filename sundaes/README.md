@@ -2,9 +2,7 @@
 
 # command
 
-get - expect element to be in DOM 
-query - expect element not to be in DOM 
-find - expect element to appear async
+get - expect element to be in DOM query - expect element not to be in DOM find - expect element to appear async
 
 # [All]
 
@@ -12,12 +10,18 @@ find - expect element to appear async
 
 # QueryType
 
-Role (most preferred) 
-AltText (images) 
-Text (display elements) 
-Form elements - PlaceholderText, LabelText, DisplayValue
+Role (most preferred) AltText (images) Text (display elements) Form elements - PlaceholderText, LabelText, DisplayValue
 
+# SummaryForm Review
 
+# Mouseover for terms and conditions
+
+userEvent.hover and userEvent.unhover methods queryByText to and expect().not.toBeInTheDocument() for element starting
+out not on the page. async waitForElementToBeRemoved for element that was there and then disappeared.
+
+# test not wrapped in act(...) warning -
+
+Determine how component is getting updated async and account for in tests
 
 # Getting Started with Create React App
 
