@@ -1,3 +1,24 @@
+# screen Query Methods
+
+# command
+
+get - expect element to be in DOM 
+query - expect element not to be in DOM 
+find - expect element to appear async
+
+# [All]
+
+(exclude) expect only one match (include) expect more than one match
+
+# QueryType
+
+Role (most preferred) 
+AltText (images) 
+Text (display elements) 
+Form elements - PlaceholderText, LabelText, DisplayValue
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
