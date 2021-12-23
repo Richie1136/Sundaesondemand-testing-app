@@ -1,17 +1,15 @@
 import React, { useState } from 'react'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import { Popover } from 'bootstrap'
+import { Popover } from 'react-bootstrap'
 import { OverlayTrigger } from 'react-bootstrap'
 
 const SummaryForm = () => {
   const [isChecked, setIsChecked] = useState(false)
 
   const popover = (
-    <Popover id='popover-basic'>
-      <Popover.Content>
-        No Ice cream will actually be delivered
-      </Popover.Content>
+    <Popover id='termsandconditions-popover'>
+      No Ice cream will actually be delivered
     </Popover>
   )
   const checkboxLabel = (
