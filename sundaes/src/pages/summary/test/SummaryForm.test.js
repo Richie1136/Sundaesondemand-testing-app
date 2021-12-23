@@ -35,3 +35,12 @@ test('Checkbox enables button on first click and disable on second click', () =>
   userEvent.click(checkbox)
   expect(confirmButton).toBeDisabled()
 });
+
+
+test('Popover responds to hover', () => {
+  render(<SummaryForm />)
+  // popover starts out hidden
+  // popover appears upon mouseover of checkbox label
+
+  // popover disappears when we mouse out
+})
