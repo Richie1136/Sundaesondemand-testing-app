@@ -23,6 +23,14 @@ out not on the page. async waitForElementToBeRemoved for element that was there 
 
 Determine how component is getting updated async and account for in tests
 
+# Numbers or Strings can use the toBe matcher
+
+# Arrays and Objects need to use the toEqual matcher
+
+# await findBy
+
+When you are waiting for something to appear asynchronously on the page, you must use await findBy
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
