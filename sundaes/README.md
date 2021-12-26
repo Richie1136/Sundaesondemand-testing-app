@@ -31,6 +31,8 @@ Determine how component is getting updated async and account for in tests
 
 When you are waiting for something to appear asynchronously on the page, you must use await findBy
 
+# waitFor - The waitFor method is used to get all of the alert role
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
