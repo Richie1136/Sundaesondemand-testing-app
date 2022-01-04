@@ -58,9 +58,16 @@ export const OrderDetailsProvider = ({ children }) => {
       optionCountsMap.set(itemName, parseInt(newItemCount))
       setOptionCounts(newOptionsCounts)
     }
+
+    const resetOrder = () => {
+      setOptionCounts({
+        scoops: new Map(),
+        toppings: new Map()
+      })
+    }
     // getter: object containing option count for scoops and toppings, subtotal and total
     // setter: updateOptionCount 
-    return [{ ...optionCounts, totals }, updateItemCount]
+    return [{ ...optionCounts, totals }, updateItemCount, resetOrder]
   }, [optionCounts, totals])
 
 
